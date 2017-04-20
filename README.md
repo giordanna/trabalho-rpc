@@ -9,9 +9,9 @@ O outro computador (Exemplo de seu IP: `192.168.0.12`) irá manter o arquivo cli
 
 **Para o Servidor:**
 1. Em um computador, insira os arquivos na pasta "UpaImagemServidor" na pasta "www" do Wamp;
-2. Em httpd-vhosts.conf, modifique o "Require local" para "Require all granted"; 
+2. Em `httpd-vhosts.conf`, modifique o "Require local" para "Require all granted"; 
 3. Crie o banco de dados "upaimagem", com nome de usuário `giordanna` e senha `88986521`;
-4. Neste banco de dados, importe os dados do arquivo `upaimagem.sql`;
+4. Neste banco de dados, importe os dados do arquivo upaimagem.sql;
 5. Verifique o IP do computador.
 
 **Para o Cliente:**
